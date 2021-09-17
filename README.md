@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Joy van Oostveen
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-blauw
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-ik snap niet helemaal wat er bij surface bedoeld wordt maar ik denk die.
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,16 +36,15 @@ ik snap niet helemaal wat er bij surface bedoeld wordt maar ik denk die.
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://miro.com/app/board/o9J_lV5uIY8=/ informatiearchitectuur website
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-homepage
-<img width="1059" alt="Schermafbeelding 2021-09-07 om 15 16 35" src="https://user-images.githubusercontent.com/90258878/132351523-785c5d0e-10bc-4167-96a6-f759a41fa850.png">
-
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-artiestenpagina
-<img width="981" alt="Schermafbeelding 2021-09-07 om 15 16 56" src="https://user-images.githubusercontent.com/90258878/132351764-e4790ca8-4bf5-4346-a4bd-176e66ee0da9.png">
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 

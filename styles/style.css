@@ -1,5 +1,77 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
+/* CSS Document */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* header */
+ul:last-of-type {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333;
+}
+
+ul:first-of-type {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8%;
+  background-color: #fe0000;
+}
+
+li{
+  list-style-type: none;
+}
+
+li a {
+  color: white;
+}
+
+ul:first-of-type li a {
+  color:black;
+}
+
+
+/*main*/
+img {
+  width: 20em;
+  height: 10em;
+}
+
+ article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+main p:first-of-type {
+  transform: rotate(-90deg);
+}
+
+main article p:first-of-type {
+  transform: rotate(0);
+}
+
+/*footer*/
+
+/* responsive maken (marc vragen)*/
+/*tablet */
+@media screen and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+/*laptop*/
+@media screen and (min-width: 1080px) {
+
+}
