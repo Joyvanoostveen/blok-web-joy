@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Joy van Oostveen
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-blauw
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-responsive
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,17 +36,15 @@ responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://miro.com/app/board/o9J_lV5uIY8=/
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-artiestenpagina
-<img src="![Schermafbeelding 2021-09-22 om 21 37 35](https://user-images.githubusercontent.com/90258878/134410533-05854752-f121-44bf-8d44-7525842079ff.png)" width="375px" alt="omschrijving van de pagina"> 
-
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Homepagina  
-"<img src="![Schermafbeelding 2021-09-22 om 21 37 35](https://user-images.githubusercontent.com/90258878/134410533-05854752-f121-44bf-8d44-7525842079ff.png)" width="375px" alt="omschrijving van de pagina"> 
-
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -235,11 +233,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. https://codepen.io/joyvanoostveen/pen/abwKbvB
-2. https://css-tricks.com/snippets/css/complete-guide-grid/
-3. https://www.w3schools.com/css/css_border.asp
-4. https://www.w3schools.com/howto/howto_css_style_hr.asp
-5. https://www.w3schools.com/css/css_positioning.asp
-6. https://www.w3schools.com/css/css3_shadows_box.asp
+1. bron 1
+2. bron 2
+3. ...
 
 </details>
