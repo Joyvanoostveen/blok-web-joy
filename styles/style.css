@@ -12,7 +12,20 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #020008;
+}
+
 /* header */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0.4em;
+}
+
 ul:last-of-type {
   display: flex;
   justify-content: space-evenly;
@@ -23,7 +36,11 @@ ul:first-of-type {
   display: flex;
   justify-content: flex-end;
   gap: 8%;
-  background-color: #fe0000;
+  background-color: rgb(152, 125, 227);
+}
+
+.header1 li:nth-child(2) {
+  padding: 0 1em 0 0;
 }
 
 li{
@@ -38,40 +55,189 @@ ul:first-of-type li a {
   color:black;
 }
 
-
-/*main*/
-img {
-  width: 20em;
-  height: 10em;
+header img {
+  width: 100%;
+  height: 100%;
 }
 
- article {
+/*main*/
+
+main img {
+  width: 100%;
+}
+
+
+/* article {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-}
+}*/
 
 
-main p:first-of-type {
+main h3:nth-child(2) {
   transform: rotate(-90deg);
+  background-color: rgb(140, 224, 245);
+  position: absolute;
+  top: 13em;
+  right: -82px;
+  padding: 0.5em;
 }
 
-main article p:first-of-type {
-  transform: rotate(0);
+main article p {
+  margin: 0 0 1em 0;
+  padding: 0 1em;
+}
+
+main article h2 {
+  margin: 0.3em 0 0.1em 0;
+  padding: 0 0.6em;
+}
+
+main article div {
+  background-color: rgb(152, 125, 227);
+  margin: 0 0 1em 0;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1em;
+  justify-content: center;
+}
+
+section {
+  border: black;
+  border-style: solid;
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(140, 224, 245);
+}
+
+section hr {
+  margin: 0.5em 0;
+  border: 1px solid black;
 }
 
 /*footer*/
 
-/* responsive maken (marc vragen)*/
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  font-size: 90%;
+}
+
+/* pagina 2 */
+.pagina2 main article:first-of-type{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.pagina2 main article:first-of-type img:first-child {
+  grid-column: span 3;
+}
+
+.pagina2 main p:nth-child(4),.pagina2 main p:nth-child(5),.pagina2 main p:nth-child(6), .pagina2 main h1 {
+  color: white;
+}
+
+.pagina2 main p {
+  margin: 0 1em;
+}
+
+.pagina2 main h1 {
+  margin: 0 0.5em;
+}
+
+.pagina2 hr {
+  margin: 0.5em 1em;
+}
+
+.pagina2 main article:last-of-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.pagina2 main section p:nth-child(6) {
+  color: black;
+}
+
+.pagina2 main section p {
+  margin: 0;
+}
+
+.pagina2 section hr {
+  margin: 0.5em 0;
+}
+
+.pagina2 main article:last-of-type h4 {
+  color: white;
+  text-align: center;
+}
+
+.pagina2 main article:last-of-type img {
+  box-shadow: 4px 4px 9px rgba(140, 224, 245, 0.561);
+}
+
+.pagina2 main h3:last-of-type { /* upcoming events rechts aan de zijkant zetten met kleur en gedraaid */
+  transform: rotate(-90deg);
+  background-color: rgb(140, 224, 245);
+  position: absolute;
+  top: 13em;
+  right: -82px;
+  padding: 0.5em;
+}
+
+.pagina2 main section h3:last-of-type { /* ongedaan maken van de bewerking hierboven voor in de section */
+  transform: rotate(0);
+  background-color: transparent;
+  position: relative;
+  top: auto;
+  right: auto;
+  padding: 0;
+}
+
+.pagina2 main h3:first-of-type { /* Vergelijkbare artiesten wit maken en in laten springen */
+  color: white;
+  margin: 1em 0 0 1em;
+}
+
+.pagina2 main section h3:first-of-type { /* ongedaan maken van de bewerking hierboven voor in de section */
+  color: black;
+  margin: 0;
+}
+
+
+/* responsive maken */
 /*tablet */
-@media screen and (min-width: 768px) {
-  body {
-    background-color: red;
-  }
+@media screen and (min-width: 38em) {
+  
 }
 
 /*laptop*/
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 57em) {
+
+ul:first-of-type a:hover {
+  color: white;
+}
+ul:last-of-type a:hover {
+  color:  rgb(152, 125, 227);
+  transition: 0.5s;
+}
+header img {
+width: 100%;
+height: 100px;
+}
+
+main article div:hover {
+  background-color: rgb(140, 224, 245);
+
+}
 
 }
