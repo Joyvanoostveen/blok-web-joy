@@ -127,10 +127,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- sections met daarin articles maken.
+- font kiezen.
+- uren maken!
+- responsive maken.
 
 </details>
 
