@@ -239,5 +239,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. https://www.w3schools.com/howto/howto_css_style_hr.asp
 5. https://www.w3schools.com/css/css_positioning.asp
 6. https://www.w3schools.com/css/css3_shadows_box.asp
+7. https://www.w3schools.com/cssref/css_selectors.asp
 
 </details>
