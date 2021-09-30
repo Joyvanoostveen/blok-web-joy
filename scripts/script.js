@@ -20,11 +20,13 @@
 // deButton.addEventListener("click", doeFormNeerEnOp);
 
 
-var button = document.getElementsByClassName("button");
-let upcoming = document.querySelector("section:last-of-type");
+var button = document.getElementById("button");
+let upcoming = document.getElementById("upcoming");
+
+button.addEventListener("click", openUpcoming);
 
 function openUpcoming() {
     upcoming.classlist.toggle("toonUpcoming");
 }
 
-button.addEventListener("openUpcoming");
+console.log(upcoming);

@@ -106,29 +106,29 @@ transform: translateX(99%);
   padding: 0.5em;
 } */
 
-main section article p {
+main section:first-of-type article p {
   margin: 0 0 1em 0;
   padding: 0 1em;
 }
 
-main section article h2 {
+main section:first-of-type article h2 {
   margin: 0.3em 0 0.1em 0;
   padding: 0 0.6em;
 }
 
-main section article {
+main section:first-of-type article {
   background-color: rgb(152, 125, 227);
   margin: 1em;
 }
 
-article {
+section:first-of-type article {
   display: grid;
   grid-template-columns: 1fr;
   padding: 1em;
   justify-content: center;
 }
 
-main section article {
+main section:first-of-type article {
   padding: 0;
 }
 
@@ -138,7 +138,7 @@ section:last-of-type {
   background-color: rgb(140, 224, 245);
 }
 
-section hr {
+#upcoming hr {
   margin: 0.5em 0;
   border: 1px solid black;
 }
@@ -155,21 +155,27 @@ footer p {
 }
 
 /* pagina 2 */
-.pagina2 main article:first-of-type {
+
+.pagina2 main section:nth-of-type(1) article:nth-of-type(1) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
+  background-color: transparent;
 }
 
-.pagina2 main article:first-of-type img:first-child {
+.pagina2 main section:nth-of-type(1) article:nth-of-type(1) img:first-child {
   grid-column: span 3;
 }
 
-.pagina2 main p:nth-child(4),
-.pagina2 main p:nth-child(5),
-.pagina2 main p:nth-child(6),
+.pagina2 main section:first-of-type article p {
+  padding: 0;
+}
+
+.pagina2 main section:nth-of-type(2) p,
+.pagina2 main section:nth-of-type(1) p,
 .pagina2 main h1 {
   color: white;
+  margin: 0 1em;
 }
 
 .pagina2 main p {
@@ -179,20 +185,19 @@ footer p {
 .pagina2 main h1 {
   margin: 0 0.5em;
   font-weight: 100;
+  font-size: 2em;
 }
 
-.pagina2 hr {
-  margin: 0.5em 1em;
+.pagina2 main section:first-of-type article:nth-of-type(2) {
+  background-color: transparent;
+  margin: 0;
 }
 
-.pagina2 main article:last-of-type {
+.pagina2 main section:nth-of-type(2) article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
-}
-
-.pagina2 main section p:nth-child(6) {
-  color: black;
+  padding: 1em;
 }
 
 .pagina2 main section p {
@@ -200,16 +205,27 @@ footer p {
 }
 
 .pagina2 section hr {
-  margin: 0.5em 0;
+  margin: 0.5em 1em;
+  color: white;
 }
 
-.pagina2 main article:last-of-type h4 {
+.pagina2 h2 {
+  color: white;
+  margin: 1em 0 0 0.8em;
+  font-size: 1.3em;
+}
+
+.pagina2 main section:nth-of-type(2) article h4 {
   color: white;
   text-align: center;
 }
 
-.pagina2 main article:last-of-type img {
+.pagina2 main section article img {
   box-shadow: 4px 4px 9px rgba(140, 224, 245, 0.561);
+}
+
+.pagina2 main section:nth-child(1) article:first-of-type img {
+  box-shadow: none;
 }
 
 .pagina2 main h3:last-of-type {
@@ -262,7 +278,7 @@ section:last-of-type {
 section:last-of-type h3:first-of-type {
   position: absolute;
   margin: 0;
-  padding: .25em;
+  padding: .25em !important;
   background-color: inherit;
   top: 0;
   left: -10%;
@@ -280,6 +296,51 @@ section:last-of-type h3:first-of-type {
 /*laptop*/
 @media screen and (min-width: 57em) {
 
+  /* header */
+
+  header img {
+    width: 100%;
+    height: 100px;
+  }
+
+  section:last-of-type h3 {
+    position: absolute !important;
+    margin: 0 !important;
+    top: -1em !important;
+    right: 0 !important;
+    left: 0 !important;
+    background-color: inherit !important;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    writing-mode: horizontal-tb !important;
+    cursor: default !important;
+  } 
+
+  /* main */
+   section:first-of-type {
+    max-width: 60%;
+    margin: 0 0 0 3.5em;
+  }
+
+  .pagina2 section:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+    max-width: 80%;
+    margin: 0 0 0 1em;
+  }
+
+  .pagina2 section:nth-of-type(1) article:nth-of-type(2) {
+    align-self: start;
+  }
+
+  section:last-of-type {
+    position: absolute;
+    right: 20%;
+  }
+
+  /* effecten */
   ul:first-of-type a:hover {
     color: white;
   }
@@ -289,14 +350,22 @@ section:last-of-type h3:first-of-type {
     transition: 0.5s;
   }
 
-  header img {
-    width: 100%;
-    height: 100px;
-  }
-
-  main section article:hover {
+  main section:nth-of-type(1) article:hover {
     background-color: rgb(140, 224, 245);
   }
 
+  .pagina2 section:nth-of-type(1) article:hover {
+    background-color: transparent;
+  }
 
+  .pagina2 section:nth-of-type(2) article img:hover {
+    box-shadow: 4px 4px 9px rgb(152, 125, 227);
+  }
+
+  .pagina2 section:nth-of-type(2) article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em 10em !important;
+    padding: 2em !important;  
+  }
 }
