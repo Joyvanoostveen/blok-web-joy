@@ -243,7 +243,7 @@ footer p {
   transform: rotate(0);
   background-color: transparent;
   position: relative;
-  top: auto;
+  /* top: auto; */
   right: auto;
   padding: 0;
 }
@@ -272,14 +272,14 @@ section:last-of-type {
 }
 
 .toonUpcoming {
-  transform: translateX(0%);
+  transform: translateX(0%) !important;
 }
 
 section:last-of-type h3:first-of-type {
-  position: absolute;
+  position: absolute !important;
   margin: 0;
   padding: .25em !important;
-  background-color: inherit;
+  background-color: inherit !important;
   top: 0;
   left: -10%;
   font-size: 1em;

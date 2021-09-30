@@ -26,7 +26,7 @@ let upcoming = document.getElementById("upcoming");
 button.addEventListener("click", openUpcoming);
 
 function openUpcoming() {
-    upcoming.classlist.toggle("toonUpcoming");
+    upcoming.classList.toggle("toonUpcoming");
 }
 
 console.log(upcoming);
