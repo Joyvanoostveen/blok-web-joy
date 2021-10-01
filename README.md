@@ -240,5 +240,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. https://www.w3schools.com/css/css_positioning.asp
 6. https://www.w3schools.com/css/css3_shadows_box.asp
 7. https://www.w3schools.com/cssref/css_selectors.asp
+8. https://partyflock.nl/artist/44260/biography
 
 </details>
