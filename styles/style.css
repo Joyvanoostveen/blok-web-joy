@@ -12,6 +12,7 @@ html {
   box-sizing: border-box;
 }
 
+
 /* fonts  */
 h1,
 h2,
@@ -26,13 +27,14 @@ li {
   font-size: 0.9em;
 }
 
+
 /* body */
 body {
   background-color: #020008;
 }
 
-/* header */
 
+/* header beide pagina's*/
 a {
   text-decoration: none;
 }
@@ -75,36 +77,11 @@ header img {
   height: 100%;
 }
 
-/*main*/
 
+/*main pagina 1*/
 main img {
   width: 100%;
 }
-
-/* section {
-position: fixed;
-top: 20%;
-right: 0%;
-margin: 0;
-transform: translateX(99%);
-} */
-
-/* article {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}*/
-
-
-/* main h3:nth-child(2) {
-  transform: rotate(-90deg);
-  background-color: rgb(140, 224, 245);
-  position: absolute;
-  top: 13em;
-  right: -82px;
-  padding: 0.5em;
-} */
 
 main section:first-of-type article p {
   margin: 0 0 1em 0;
@@ -121,7 +98,7 @@ main section:first-of-type article {
   margin: 1em;
 }
 
-section:first-of-type article {
+main section:first-of-type article {
   display: grid;
   grid-template-columns: 1fr;
   padding: 1em;
@@ -132,27 +109,17 @@ main section:first-of-type article {
   padding: 0;
 }
 
-section:last-of-type {
+main section:last-of-type {
   text-align: left;
   padding: 1em;
   background-color: rgb(140, 224, 245);
 }
 
-#upcoming hr {
+main section:last-of-type hr {
   margin: 0.5em 0;
   border: 1px solid black;
 }
 
-/*footer*/
-
-
-footer p {
-  color: white;
-  text-align: center;
-  padding: 1em;
-  background-color: #333;
-  font-size: 90%;
-}
 
 /* pagina 2 */
 
@@ -169,6 +136,10 @@ footer p {
 
 .pagina2 main section:first-of-type article p {
   padding: 0;
+}
+
+.pagina2 section:nth-of-type(1) article:nth-of-type(2) {
+  max-width: 100%;
 }
 
 .pagina2 main section:nth-of-type(2) p,
@@ -204,7 +175,7 @@ footer p {
   margin: 0;
 }
 
-.pagina2 section hr {
+.pagina2 section:nth-of-type(1) hr, .pagina2 section:nth-of-type(2) hr  {
   margin: 0.5em 1em;
   color: white;
 }
@@ -267,7 +238,6 @@ footer p {
 }
 
 /* upcoming events */
-
 section:last-of-type {
   position: absolute;
   top: 20%;
@@ -276,8 +246,8 @@ section:last-of-type {
   transition: 1s;
 }
 
-.toonUpcoming {
-  transform: translateX(0%) !important;
+main section:last-of-type.toonUpcoming {
+  transform: translateX(0%);
 }
 
 section:last-of-type h3:first-of-type {
@@ -294,55 +264,58 @@ section:last-of-type h3:first-of-type {
   cursor: pointer;
 }
 
+
+/*footer beide pagina's*/
+footer p {
+  color: white;
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  font-size: 90%;
+}
+
+
 /* responsive maken */
+
 /*tablet */
 @media screen and (min-width: 38em) {}
+
 
 /*laptop*/
 @media screen and (min-width: 57em) {
 
-  /* header */
-
+  /* header beide pagina's*/
   header img {
     width: 100%;
     height: 100px;
   }
 
-  section:last-of-type h3 {
-    position: absolute !important;
-    margin: 0 !important;
-    top: -1em !important;
-    right: 0 !important;
-    left: 0 !important;
-    background-color: inherit !important;
-    font-size: 1em !important;
-    font-weight: bold !important;
-    text-align: center !important;
-    writing-mode: horizontal-tb !important;
-    cursor: default !important;
-  }
-
-  /* main */
+  /* main pagina 1*/
   section:first-of-type {
-    max-width: 60%;
+    max-width: 100%;
     margin: 0 0 0 3.5em;
   }
 
+  /* main pagina 2 */
   .pagina2 section:nth-of-type(1) {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5em;
-    max-width: 80%;
     margin: 0 0 0 1em;
+  }
+
+  .pagina2 section:nth-of-type(1) article:nth-of-type(3) {
+    background-color: transparent;
+  }
+
+  .pagina2 section:nth-of-type(1) article:nth-of-type(3) iframe {
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 100%;
   }
 
   .pagina2 section:nth-of-type(1) article:nth-of-type(2) {
     align-self: start;
-  }
-
-  section:last-of-type {
-    position: absolute;
-    right: 20%;
   }
 
   .pagina2 section:nth-of-type(2) p {
@@ -369,17 +342,47 @@ section:last-of-type h3:first-of-type {
     background-color: transparent;
   }
 
-  @keyframes dj-animation {
+  @keyframes disco {
     0% {
+      box-shadow: 4px 4px 9px rgb(152, 125, 227);
       transform:rotate(0);
     }
+    12.5% {
+      box-shadow: 4px 4px 9px red;
+      
+    }
+    25% {
+      box-shadow: 4px 4px 9px orange;
+     
+    }
+    37.5% {
+      box-shadow: 4px 4px 9px yellow;
+      
+    }
+    50% {
+      box-shadow: 4px 4px 9px lightgreen;
+      
+    }
+    62.5% {
+      box-shadow: 4px 4px 9px green;
+      
+    }
+    75% {
+      box-shadow: 4px 4px 9px lightblue;
+      
+    }
+    87.5% {
+      box-shadow: 4px 4px 9px blue;
+      
+    }
     100% {
+      box-shadow: 4px 4px 9px rgb(152, 125, 227);
       transform:rotate(360deg);
     }
   }
   
   .pagina2 section:nth-of-type(2) article img:hover {
-    animation-name: dj-animation;
+    animation-name: disco;
     animation-duration:10s;
     border-radius: 100%;
     transition: 1s;
