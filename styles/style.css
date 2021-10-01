@@ -142,7 +142,16 @@ main section:last-of-type hr {
   max-width: 100%;
 }
 
-.pagina2 main section:nth-of-type(2) p,
+.pagina2 section:nth-of-type(1) article:nth-of-type(3) {
+  background-color: transparent;
+}
+
+.pagina2 section:nth-of-type(1) article:nth-of-type(3) iframe {
+  background-color: transparent;
+  min-width: 100%;
+  min-height: 70%;
+}
+
 .pagina2 main section:nth-of-type(1) p,
 .pagina2 main h1 {
   color: white;
@@ -212,11 +221,7 @@ main section:last-of-type hr {
 .pagina2 main section h3:last-of-type {
   /* ongedaan maken van de bewerking hierboven voor in de section */
   transform: rotate(0);
-  background-color: transparent;
-  position: relative;
-  /* top: auto; */
   right: auto;
-  padding: 0;
 }
 
 .pagina2 main h3:first-of-type {
@@ -232,8 +237,6 @@ main section:last-of-type hr {
 }
 
 .pagina2 section:nth-of-type(2) p {
-  font-size: 0.7em;
-  margin: 0 0 0 2em !important;
   visibility: hidden;
 }
 
@@ -251,10 +254,10 @@ main section:last-of-type.toonUpcoming {
 }
 
 section:last-of-type h3:first-of-type {
-  position: absolute !important;
+  position: absolute;
   margin: 0;
-  padding: .25em !important;
-  background-color: inherit !important;
+  padding: .25em;
+  background-color: inherit;
   top: 0;
   left: -10%;
   font-size: 1em;
@@ -292,11 +295,14 @@ footer p {
 
   /* main pagina 1*/
   section:first-of-type {
-    max-width: 100%;
-    margin: 0 0 0 3.5em;
+    max-width: 60%;
   }
 
   /* main pagina 2 */
+  .pagina2 section:first-of-type {
+    max-width: 100%;
+  }
+
   .pagina2 section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -304,23 +310,14 @@ footer p {
     margin: 0 0 0 1em;
   }
 
-  .pagina2 section:nth-of-type(1) article:nth-of-type(3) {
-    background-color: transparent;
-  }
-
-  .pagina2 section:nth-of-type(1) article:nth-of-type(3) iframe {
-    background-color: transparent;
-    min-width: 100%;
-    min-height: 100%;
-  }
-
   .pagina2 section:nth-of-type(1) article:nth-of-type(2) {
     align-self: start;
   }
 
   .pagina2 section:nth-of-type(2) p {
+    color: white;
     font-size: 0.7em;
-    margin: 0 0 0 2em !important;
+    margin: 0 0 0 2em;
     visibility: visible;
   }
 
@@ -387,12 +384,13 @@ footer p {
     border-radius: 100%;
     transition: 1s;
     box-shadow: 4px 4px 9px rgb(152, 125, 227);
+    cursor: pointer;
   }
 
-  .pagina2 section:nth-of-type(2) article {
+  .pagina2 main section:nth-of-type(2) article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em 10em !important;
-    padding: 2em !important;
+    grid-gap: 3em 10em;
+    padding: 2em;
   }
 }
