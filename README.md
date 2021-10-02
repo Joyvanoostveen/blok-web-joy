@@ -13,7 +13,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
 Joy van Oostveen
@@ -33,7 +32,6 @@ responsive
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
 https://miro.com/app/board/o9J_lV5uIY8=/
@@ -77,7 +75,6 @@ Homepagina
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
 Ik had eigenlijk veel te laat pas door dat we al begonnen moesten zijn met de website coderen, dus liep hier vrij mee achter. Uiteindelijk toch nog sne leen heel stuk html in elkaar kunnen zetten met een mini beetje styling in de CSS. (heb geen screenshots van de site hoe het er op dit moment uit zag).
@@ -98,7 +95,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -120,7 +116,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -160,10 +155,10 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn html is erg netjes, behalve dat er meerdere Id's gebruikt worden en dat mag niet. <img src="images/id.png" width="375px" alt="je ziet dat voor javascript getElementById gebruikt wordt">
+De css ziet er goed uit, maar wel voor zorgen dat er meer comments komen en ook nog wat meer geordend. Overigens gebruik ik !important, maar dat is geen nette manier van code, dus dat moet nog specifieker aangeroepen worden. <img src="images/important.png" width="375px" alt="je ziet dat !important gebruikt wordt om bepaalde delen te overschrijven">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
