@@ -40,12 +40,12 @@ https://miro.com/app/board/o9J_lV5uIY8=/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 artiestenpagina
-<img src="![Schermafbeelding 2021-09-22 om 21 37 35](https://user-images.githubusercontent.com/90258878/134410533-05854752-f121-44bf-8d44-7525842079ff.png)" width="375px" alt="omschrijving van de pagina"> 
+<img src="images/artiestenpagina.png" width="375px" alt="artiesten pagina"> 
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Homepagina  
-"<img src="![Schermafbeelding 2021-09-22 om 21 37 35](https://user-images.githubusercontent.com/90258878/134410533-05854752-f121-44bf-8d44-7525842079ff.png)" width="375px" alt="omschrijving van de pagina"> 
+"<img src="images/homepagina.png" width="375px" alt="home pagina"> 
 
  
 </details>
@@ -241,5 +241,3 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 6. https://www.w3schools.com/css/css3_shadows_box.asp
 7. https://www.w3schools.com/cssref/css_selectors.asp
 8. https://partyflock.nl/artist/44260/biography
-
-</details>
