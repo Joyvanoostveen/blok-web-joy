@@ -15,9 +15,12 @@ html {
 
 /* roots */
 :root {
-  --background-color:#020008;
-  --primair-color:rgb(152, 125, 227);
-  --secundair-color:rgb(140, 224, 245);
+  --background-color: #020008;
+  --primair-color: rgb(152, 125, 227);
+  --secundair-color: rgb(140, 224, 245);
+  --focus-blue: rgb(95, 182, 204);
+  --focus-purple: rgb(124, 100, 189);
+  --active-pink: pink;
 }
 
 /* fonts  */
@@ -202,6 +205,7 @@ main section:last-of-type hr {
 .pagina2 main p {
   margin: 0 1em;
 }
+
 .pagina2 main section:nth-of-type(2) article {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -213,7 +217,8 @@ main section:last-of-type hr {
   margin: 0;
 }
 
-.pagina2 section:nth-of-type(1) hr, .pagina2 section:nth-of-type(2) hr  {
+.pagina2 section:nth-of-type(1) hr,
+.pagina2 section:nth-of-type(2) hr {
   margin: 0.5em 1em;
   color: white;
 }
@@ -230,7 +235,7 @@ main section:last-of-type hr {
 }
 
 .pagina2 main section article img {
-  box-shadow: 4px 4px 9px rgba(140, 224, 245, 0.561);
+  box-shadow: 4px 4px 9px var(--secundair-color);
 }
 
 .pagina2 main section:nth-child(1) article:first-of-type img {
@@ -245,9 +250,6 @@ main section:last-of-type hr {
   top: 13em;
   right: -82px;
   padding: 0.5em;
-}
-.pagina2 main h3:last-of-type:active {
-
 }
 
 .pagina2 main section h3:last-of-type {
@@ -310,11 +312,133 @@ footer p {
 }
 
 
+/* states */
+
+/* focus state */
+main section:last-of-type h3:last-of-type:focus {
+  background-color: var(--focus-blue);
+  outline: none;
+  border: 2px solid pink;
+}
+
+ul:first-of-type a:focus {
+  color: white;
+  outline: none;
+}
+
+ul:last-of-type a:focus {
+  color: var(--primair-color);
+  outline: none;
+}
+
+.pagina2 section:nth-of-type(2) article img:focus {
+  outline: none;
+  border: 4px solid pink;
+  border-radius: 100%;
+}
+
+main section:first-of-type article:focus {
+  outline: none;
+  background-color: var(--secundair-color);
+}
+
+
+/* active state */
+main section:last-of-type h3:last-of-type:active {
+  background-color: var(--active-pink);
+}
+
+ul:first-of-type a:active {
+  color: var(--active-pink);
+}
+
+ul:last-of-type a:active {
+  color: var(--active-pink);
+}
+
+.pagina2 section:nth-of-type(2) article img:active {
+  opacity: 50%;
+  border-radius: 100%;
+}
+
+main section:first-of-type article:active {
+  background-color: var(--active-pink);
+}
+
+
+/* hover state */
+ul:first-of-type a:hover {
+  color: white;
+}
+
+ul:last-of-type a:hover {
+  color: var(--primair-color);
+  transition: 0.5s;
+}
+
+main section:nth-of-type(1) article:hover {
+  background-color: var(--secundair-color);
+  transition: 0.5s;
+}
+
+.pagina2 section:nth-of-type(1) article:hover {
+  background-color: transparent;
+}
+
+
+/* hover en focus in een */
+@keyframes disco {
+  0% {
+    box-shadow: 4px 4px 9px var(--primair-color);
+    transform: rotate(0);
+  }
+
+  12.5% {
+    box-shadow: 4px 4px 9px red;
+  }
+
+  25% {
+    box-shadow: 4px 4px 9px orange;
+  }
+
+  37.5% {
+    box-shadow: 4px 4px 9px yellow;
+  }
+
+  50% {
+    box-shadow: 4px 4px 9px lightgreen;
+  }
+
+  62.5% {
+    box-shadow: 4px 4px 9px green;
+  }
+
+  75% {
+    box-shadow: 4px 4px 9px lightblue;
+  }
+
+  87.5% {
+    box-shadow: 4px 4px 9px blue;
+  }
+
+  100% {
+    box-shadow: 4px 4px 9px var(--primair-color);
+    transform: rotate(360deg);
+  }
+}
+
+.pagina2 section:nth-of-type(2) article img:hover,
+.pagina2 section:nth-of-type(2) article img:focus {
+  animation-name: disco;
+  animation-duration: 10s;
+  border-radius: 100%;
+  transition: 1s;
+  box-shadow: 4px 4px 9px var(--primair-color);
+  cursor: pointer;
+}
+
+
 /* responsive maken */
-
-/*tablet */
-@media screen and (min-width: 48em) {}
-
 
 /*laptop*/
 @media screen and (min-width: 57em) {
@@ -353,65 +477,6 @@ footer p {
     visibility: visible;
   }
 
-  /* effecten */
-  ul:first-of-type a:hover {
-    color: white;
-  }
-
-  ul:last-of-type a:hover {
-    color: var(--primair-color);
-    transition: 0.5s;
-  }
-
-  main section:nth-of-type(1) article:hover {
-    background-color: var(--secundair-color);
-  }
-
-  .pagina2 section:nth-of-type(1) article:hover {
-    background-color: transparent;
-  }
-
-  @keyframes disco {
-    0% {
-      box-shadow: 4px 4px 9px var(--primair-color);
-      transform:rotate(0);
-    }
-    12.5% {
-      box-shadow: 4px 4px 9px red;
-    }
-    25% {
-      box-shadow: 4px 4px 9px orange;
-    }
-    37.5% {
-      box-shadow: 4px 4px 9px yellow;
-    }
-    50% {
-      box-shadow: 4px 4px 9px lightgreen;
-    }
-    62.5% {
-      box-shadow: 4px 4px 9px green;
-    }
-    75% {
-      box-shadow: 4px 4px 9px lightblue;
-    }
-    87.5% {
-      box-shadow: 4px 4px 9px blue;
-    }
-    100% {
-      box-shadow: 4px 4px 9px var(--primair-color);
-      transform:rotate(360deg);
-    }
-  }
-  
-  .pagina2 section:nth-of-type(2) article img:hover {
-    animation-name: disco;
-    animation-duration:10s;
-    border-radius: 100%;
-    transition: 1s;
-    box-shadow: 4px 4px 9px var(--primair-color);
-    cursor: pointer;
-  }
-
   .pagina2 main section:nth-of-type(2) article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -422,13 +487,13 @@ footer p {
 
 
 @media screen and (min-width: 69em) {
-.pagina2 main section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(4) {
-  position: relative;
-  visibility: visible;
-  z-index: 0;
-  overflow-y: scroll;
-  height: 10em;
-}
+  .pagina2 main section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(4) {
+    position: relative;
+    visibility: visible;
+    z-index: 0;
+    overflow-y: scroll;
+    height: 10em;
+  }
 }
 
 @media screen and (min-width: 95em) {
@@ -436,4 +501,4 @@ footer p {
     height: 100%;
     overflow: hidden;
   }
-  }
+}
