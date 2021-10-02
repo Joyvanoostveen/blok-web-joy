@@ -82,16 +82,6 @@ Homepagina
 ### Stand van zaken
 Ik had eigenlijk veel te laat pas door dat we al begonnen moesten zijn met de website coderen, dus liep hier vrij mee achter. Uiteindelijk toch nog sne leen heel stuk html in elkaar kunnen zetten met een mini beetje styling in de CSS. (heb geen screenshots van de site hoe het er op dit moment uit zag).
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
@@ -112,17 +102,6 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -145,6 +124,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+1. Weinig buttons op de site.
+2. Alles kan voorgelezen worden door een screenreader.
+3. De states zijn nog niet allemaal netjes uitgewerkt.
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -183,24 +165,14 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+1. Id's weghalen, die mogen niet.
+2. !important is geen nette vormgevingscode, dus oplossen door specifiek aan te spreken.
+3. Css netjes ordenen, mag zoals voor mij overzichtelijk is, maar wel net.
+4. Responsive maken, voor nu nog niet volledig genoeg, dus goed mee aan de slag.
+5. De fout van audio (mouseover, mouseout)) is niet echt op te lossen zonder javascript in html te zetten, wat geen nette code is, dus het is voor nu niet erg.
 
 </details>
 
