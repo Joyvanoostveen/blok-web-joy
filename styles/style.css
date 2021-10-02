@@ -171,6 +171,7 @@ main section:last-of-type hr {
   background-color: transparent;
   min-width: 100%;
   min-height: 70%;
+  border: none;
 }
 
 .pagina2 main section:nth-of-type(1) p,
