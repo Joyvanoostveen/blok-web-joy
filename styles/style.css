@@ -24,16 +24,6 @@ html {
 }
 
 
-/* webkit */
-::-webkit-scrollbar-thumb {
-  background-color: var(--primair-color);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  color: #020008;
-}
-
-
 /* fonts  */
 h1,
 h2,
@@ -505,7 +495,6 @@ main section:nth-of-type(1) article:hover {
     overflow-y: scroll;
     height: 10em;
   }
-}
 
 
 
