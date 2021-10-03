@@ -113,8 +113,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-<img src="images/code-versie1.png" width="375px" alt="code versie 1">
+Alles passend maken voor mobiel formaat is gelukt, behalve het binnen laten sliden van upcoming events. Ook heb ik al een start gemaakt met mijn 2e pagina, omdat ik bang was dat ik het anders niet zou redden voor de uiteindelijke deadline, plus het is makkelijk werken als je de 2e pagina al hebt met dingen die hetzelfde zijn. Inmiddels heb ik ook al een soort huisstijl gemaakt, wat je op beide pagina's terug ziet.
+
+### Pagina 1
+<img src="images/code-versie1.png" width="750px" alt="code versie 1">
 
 <img src="images/bovenkant-versie1-telefoon.png" width="375px" alt="telefoon versie 1">
 <img src="images/onderkant-versie1-telefoon.png" width="375px" alt="telefoon versie 1">
@@ -122,6 +124,12 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 <img src="images/bovenkant-versie1.png" width="750px" alt="web versie 1">
 
 <img src="images/onderkant-versie1.png" width="750px" alt="web versie 1">
+
+### Pagina 2
+<img src="images/code-versie1-scherm2.png" width="750px" alt="code versie 1 scherm 2">
+
+<img src="images/bovenkant-pagina2.png" width="375px" alt="telefoon versie 1 scherm 2">
+<img src="images/onderkant-pagina2.png" width="375px" alt="telefoon versie 1 scherm 2">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
