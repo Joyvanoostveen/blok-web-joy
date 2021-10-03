@@ -58,7 +58,7 @@ Homepagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/mobiel_formaat_1.jpg" width="375px" alt="mobiel voor breakdown scherm 1">
+<img src="images/test.jpg" width="375px" alt="mobiel voor breakdown scherm 1">
 
 <img src="images/web_formaat_1.jpg" width="375px" alt="web met breakdown scherm 1">
 
