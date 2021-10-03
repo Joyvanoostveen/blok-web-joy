@@ -79,7 +79,8 @@ versie op web (pagina 1)
 <img src="images/web_formaat _met_upcoming_events_1.jpg" width="750px" alt="upcoming events komt binnen">
 
 ### Nog een dynamisch deel vergelijkbare artiesten: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/web_formaat_2.jpg" width="750px" alt="upcoming events nog niet met hover">
+<img src="images/web_formaat_rotate_img_2.jpg" width="750px" alt="upcoming events wanneer je hovert">
 
 </details>
 
