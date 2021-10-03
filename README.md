@@ -38,11 +38,13 @@ https://miro.com/app/board/o9J_lV5uIY8=/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 artiestenpagina
+
 <img src="images/artiestenpagina.png" width="375px" alt="artiesten pagina"> 
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Homepagina  
+
 <img src="images/homepagina.png" width="375px" alt="home pagina"> 
 
  
@@ -134,10 +136,11 @@ Alles passend maken voor mobiel formaat is gelukt, behalve het binnen laten slid
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- sections met daarin articles maken.
-- font kiezen.
+- sections met daarin articles maken, is nettere html code.
+- font(s) kiezen, nu is het nog de standaard.
 - uren maken!
 - responsive maken.
+- javascript toevoegen, onder andere voor de upcoming events button.
 
 </details>
 
@@ -155,28 +158,32 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 2. Alles kan voorgelezen worden door een screenreader.
 3. De states zijn nog niet allemaal netjes uitgewerkt.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Weinig focusbare elementen
+Eigenlijk zijn op dit moment alleen de menu onderdelen focusbaar. Dit komt omdat die wel een link hebben en de rest werkt niet op die manier. Toch zou je wel moeten kunnen focussen op andere onderdelen als je nog meer pagina's zou hebben om heen te gaan.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Door "tabindex" toe te voegen is het mogelijk om toch te kunnen focussen op onderdelen die geen link of button zijn. Vervolgens kan je zoals je op de 2e afbeelding ziet een :focus toevoegen en zelf stylen.
+<img src="images/tabindex.png" width="325px" alt="code om te focussen">
+<img src="images/focussed.png" width="325px" alt="focus met eigen styling">
+
+#### Focusbare elementen zijn nog standaard 
+Er is nog helemaal geen :focus styling toegepast op beide pagina's, waardoor de focus nu nog standaard is en niet perse passend bij de site. Afbeelding hieronder laat standaard focus zien.
+
+<img src="images/focus-before.png" width="325px" alt="focus voor eigen styling">
+
+Door de focusbare elementen in css een :focus te geven kan je ze zelf stylen. Vervolgens kan je naar eigen wens vormgeven, zodat het beter past bij de rest van de site. Afbeelding hieronder laat de nieuwe eigen focus zien.
+
+<img src="images/focus-after.png" width="325px" alt="focus met eigen styling">
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### States naast focus zijn nog niet ver genoeg uitgewerkt
+Er zijn wel een paar dingen die hoverbaar zijn, maar verder is er weinig interactie op de pagina's nog. Ook is er nog geen een active state te vinden.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+In css is :active, :hover, :focus en @keyframes toegevoegd. Hiermee kan je ze allemaal stylen naar eigen keuze. De keyframes zijn niet perse nodig, maar heb ik zelf voor gekozen om het leuker te maken.
+<img src="images/active.png" width="325px" alt="active">
+<img src="images/focus.png" width="325px" alt="focus">
+<img src="images/hover.png" width="325px" alt="hover">
+<img src="images/keyframes.png" width="325px" alt="keyframes voor hover en focus">
+<img src="images/hover-focus.png" width="325px" alt="hover en focus in een">
 
 </details>
 
@@ -195,11 +202,11 @@ De css ziet er goed uit, maar wel voor zorgen dat er meer comments komen en ook 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-1. Id's weghalen, die mogen niet.
-2. !important is geen nette vormgevingscode, dus oplossen door specifiek aan te spreken.
-3. Css netjes ordenen, mag zoals voor mij overzichtelijk is, maar wel net.
-4. Responsive maken, voor nu nog niet volledig genoeg, dus goed mee aan de slag.
-5. De fout van audio (mouseover, mouseout)) is niet echt op te lossen zonder javascript in html te zetten, wat geen nette code is, dus het is voor nu niet erg.
+- Id's weghalen, die mogen niet.
+- !important is geen nette vormgevingscode, dus oplossen door specifiek aan te spreken.
+- Css netjes ordenen, mag zoals voor mij overzichtelijk is, maar wel net.
+- Responsive maken, voor nu nog niet volledig genoeg, dus goed mee aan de slag.
+- De fout van audio (mouseover, mouseout)) is niet echt op te lossen zonder javascript in html te zetten, wat geen nette code is, dus het is voor nu niet erg.
 
 </details>
 
