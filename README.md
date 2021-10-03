@@ -225,11 +225,47 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik wilde heel graag werken met animaties, maar dit snapte ik een hele tijd niet zo goed. Uiteindelijk snap ik het nu wel en heb ik daar wat mee in elkaar kunnen zetten. 
+
+Poging 1 tot meerdere acties op hover (niet goed nog):
+
+<img src="images/probleem.png" width="325px" alt="dubbelop van dezelfde code">
+
+poging 2 door middel van keyframes (werkt wel):
+
+<img src="images/keyframes.png" width="325px" alt="keyframes voor hover en focus">
+
+
+Ook wilde ik de mogelijkheid dat er extra tekst in beeld komt vanaf een bepaald formaat, maar vooraf daaraan moet het er ook zijn alleen dan scrollbaar en bij telefoon moet het weg zijn. Hier heb ik heel erg mee lopen puzzelen, maar dat is ook mogelijk geworden.
+
+Probleem toen het nog niet werkte:
+
+<img src="images/lange-tekst.png" width="325px" alt="tekst hoe het nog niet moet">
+
+Verder was het steeds goed opletten dat ik zo specifiek mogelijk alles aansprak in mijn css. Op die manier kon ik beter het overschrijven voorkomen van dingen die niet overschreven mochten worden. 
+Ik heb steeds gewerkt met nth-child(), maar het werkte steeds niet en ik snapte niet waarom. Tot ik erachter kwam dat nth-of-type(), de oplossing was en spontaan ging alles 100x zo makkelijk met aanspreken. Hierdoor heb ik vrijwel geen gebruik van classes hoeven maken. Er staat een class op de body van pagina 2, om zo dingen van pagina 2 specifieker aan te kunnen spreken voor die pagina. 
+Bij de animatie van de vergelijkbare artiesten heb ik ook met javascript audio toegevoegd. Nu is dit met mouseover, alleen wordt dat niet meer volledig ondersteund door Chrome, doordat ze niet willen dat je zonder ook maar te klikken opeens geluid hebt. Dit valt niet op te lossen met semantische code en daardoor heb ik besloten dat het zo blijft staan als het nu is. Onder vergelijkbare artiesten staat de tekst (klik random om audio te activeren), op die manier word je hier van te voren over ingelicht. Zo is het toch mogelijk om mouseover te houden, want het is wel toegestaan als er eerst al op de pagina ergens geklikt is.
+
+
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+### Pagina 1
+<img src="images/eindresultaat-pagina1-bovenkant.png" width="750px" alt="tekst hoe het nog niet moet">
+
+<img src="images/eindresultaat-pagina1-onderkant.png" width="750px" alt="tekst hoe het nog niet moet">
+
+### Pagina 2
+
+<img src="images/eindresultaat-pagina2-bovenkant.png" width="750px" alt="tekst hoe het nog niet moet">
+
+<img src="images/eindresultaat-pagina2-onderkant.png" width="750px" alt="tekst hoe het nog niet moet">
+
+### Extra's
+
+<img src="images/eindresultaat-keyframe.png" width="325px" alt="tekst hoe het nog niet moet">
+<img src="images/eindresultaat-upcoming-events.png" width="325px" alt="tekst hoe het nog niet moet">
+
 
 </details>
 
@@ -242,8 +278,6 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
 1. https://codepen.io/joyvanoostveen/pen/abwKbvB
 2. https://css-tricks.com/snippets/css/complete-guide-grid/
 3. https://www.w3schools.com/css/css_border.asp
@@ -252,3 +286,11 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 6. https://www.w3schools.com/css/css3_shadows_box.asp
 7. https://www.w3schools.com/cssref/css_selectors.asp
 8. https://partyflock.nl/artist/44260/biography
+9. https://codepen.io/shooft/pen/zYzdMwO 
+10. https://codepen.io/shooft/pen/gOrJdGG
+11. https://320ytmp3.com/nl3/download?type=ytconv&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmHeHqKgJlGM
+12. https://fonts.adobe.com/
+13. https://codepen.io/shooft/pen/mdwroZE
+14. https://oege.ie.hva.nl/~oostvej/Eindopdracht%20Internetstandaarden/home.html
+15. https://validator.w3.org/nu/
+16. https://jigsaw.w3.org/css-validator/
