@@ -37,16 +37,16 @@ responsive
 https://miro.com/app/board/o9J_lV5uIY8=/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-artiestenpagina
-
-<img src="images/artiestenpagina.png" width="375px" alt="artiesten pagina"> 
-
-
-#### Screenshot(s) van de tweede pagina (small screen):
 Homepagina  
 
 <img src="images/homepagina.png" width="375px" alt="home pagina"> 
 
+
+#### Screenshot(s) van de tweede pagina (small screen):
+
+artiestenpagina
+
+<img src="images/artiestenpagina.png" width="375px" alt="artiesten pagina"> 
  
 </details>
 
@@ -163,7 +163,7 @@ Eigenlijk zijn op dit moment alleen de menu onderdelen focusbaar. Dit komt omdat
 
 Door "tabindex" toe te voegen is het mogelijk om toch te kunnen focussen op onderdelen die geen link of button zijn. Vervolgens kan je zoals je op de 2e afbeelding ziet een :focus toevoegen en zelf stylen.
 <img src="images/tabindex.png" width="325px" alt="code om te focussen">
-<img src="images/focussed.png" width="325px" alt="focus met eigen styling">
+<img src="images/focussed.png" width="125px" alt="focus met eigen styling">
 
 #### Focusbare elementen zijn nog standaard 
 Er is nog helemaal geen :focus styling toegepast op beide pagina's, waardoor de focus nu nog standaard is en niet perse passend bij de site. Afbeelding hieronder laat standaard focus zien.
@@ -196,8 +196,13 @@ In css is :active, :hover, :focus en @keyframes toegevoegd. Hiermee kan je ze al
 <details>
 
 ### Stand van zaken
-Mijn html is erg netjes, behalve dat er meerdere Id's gebruikt worden en dat mag niet. <img src="images/id.png" width="375px" alt="je ziet dat voor javascript getElementById gebruikt wordt">
-De css ziet er goed uit, maar wel voor zorgen dat er meer comments komen en ook nog wat meer geordend. Overigens gebruik ik !important, maar dat is geen nette manier van code, dus dat moet nog specifieker aangeroepen worden. <img src="images/important.png" width="375px" alt="je ziet dat !important gebruikt wordt om bepaalde delen te overschrijven">
+Mijn html is erg netjes, behalve dat er meerdere Id's gebruikt worden en dat mag niet. 
+
+<img src="images/id.png" width="375px" alt="je ziet dat voor javascript getElementById gebruikt wordt">
+
+De css ziet er goed uit, maar wel voor zorgen dat er meer comments komen en ook nog wat meer geordend. Overigens gebruik ik !important, maar dat is geen nette manier van code, dus dat moet nog specifieker aangeroepen worden. 
+
+<img src="images/important.png" width="375px" alt="je ziet dat !important gebruikt wordt om bepaalde delen te overschrijven">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
