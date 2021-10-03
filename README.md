@@ -66,7 +66,7 @@ Homepagina
 
 <img src="images/web_formaat_2.jpg" width="375px" alt="web met breakdown scherm 2">
 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/mobiel_formaat_1.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
