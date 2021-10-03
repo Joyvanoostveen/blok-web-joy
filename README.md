@@ -83,7 +83,7 @@ Homepagina
 <details>
 
 ### Stand van zaken
-Ik had eigenlijk veel te laat pas door dat we al begonnen moesten zijn met de website coderen, dus liep hier vrij mee achter. Uiteindelijk toch nog sne leen heel stuk html in elkaar kunnen zetten met een mini beetje styling in de CSS. (heb geen screenshots van de site hoe het er op dit moment uit zag).
+Ik had eigenlijk veel te laat pas door dat we al begonnen moesten zijn met de website coderen, dus liep ik hier vrij ver mee achter. Uiteindelijk toch nog snel een heel stuk html in elkaar kunnen zetten met een mini beetje styling in de CSS. Op die manier had ik wel al een opzetje, maar daar hield het ook wel bij op. Doordat ik mijn site van IA ongeveer na ga maken heb ik ook nog geen mobiele voorbeeldversie, dus die moet ik zelf bedenken door middel van de breakdown schetsen.(heb geen screenshots van de site hoe het er op dit moment uit zag).
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -104,6 +104,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+<img src="images/bovenkant-versie1-telefoon.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
