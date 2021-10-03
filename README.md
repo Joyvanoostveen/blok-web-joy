@@ -58,15 +58,13 @@ Homepagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/test.jpg" width="375px" alt="mobiel voor breakdown scherm 1">
+<img src="images/mobiel_formaat_1.jpg" width="375px" alt="mobiel voor breakdown scherm 1">
 
 <img src="images/web_formaat_1.jpg" width="375px" alt="web met breakdown scherm 1">
 
 <img src="images/mobiel_formaat_2.jpg" width="375px" alt="mobiel voor breakdown scherm 2">
 
 <img src="images/web_formaat_2.jpg" width="375px" alt="web met breakdown scherm 2">
-
-<img src="images/mobiel_formaat_1.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
