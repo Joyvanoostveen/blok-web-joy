@@ -69,10 +69,12 @@ Homepagina
 
 ### dynamisch deel upcoming events: 
 Versie op mobiel (pagina 1)
+
 <img src="images/mobiel_formaat_1.jpg" width="375px" alt="upcoming events nog niet geklikt">
 <img src="images/mobiel_met_upcoming_events_1.jpg" width="375px" alt="upcoming events komt binnen">
 
 versie op web (pagina 1)
+
 <img src="images/web_formaat_1.jpg" width="750px" alt="upcoming events nog niet geklikt">
 <img src="images/web_formaat _met_upcoming_events_1.jpg" width="750px" alt="upcoming events komt binnen">
 
