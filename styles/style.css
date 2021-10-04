@@ -28,7 +28,8 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+button {
   font-family: 'baskerville-urw';
 }
 
@@ -93,6 +94,7 @@ header img {
 main {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 main section:nth-of-type(1) h1 {
@@ -243,7 +245,7 @@ main section:last-of-type hr {
   box-shadow: none;
 }
 
-.pagina2 main h3:last-of-type {
+main button {
   /* upcoming events rechts aan de zijkant zetten met kleur en gedraaid */
   transform: rotate(-90deg);
   background-color: var(--secundair-color);
@@ -253,11 +255,11 @@ main section:last-of-type hr {
   padding: 0.5em;
 }
 
-.pagina2 main section h3:last-of-type {
+/* .pagina2 main section h3:last-of-type { */
   /* ongedaan maken van de bewerking hierboven voor in de section */
-  transform: rotate(0);
+  /* transform: rotate(0);
   right: auto;
-}
+} */
 
 .pagina2 main h3:first-of-type {
   /* Vergelijkbare artiesten wit maken en in laten springen */
@@ -265,7 +267,7 @@ main section:last-of-type hr {
   margin: 1em 0 0 1em;
 }
 
-.pagina2 main section h3:first-of-type {
+.pagina2 main section button {
   /* ongedaan maken van de bewerking hierboven voor in de section */
   color: black;
   margin: 0;
@@ -288,18 +290,19 @@ main section:last-of-type.toonUpcoming { /*class die door javascript wordt toege
   transform: translateX(0%);
 }
 
-section:last-of-type h3:first-of-type { /* zorgt dat upcoming events verticaal gedraaid aan de zijkant staat*/
+section:last-of-type button { /* zorgt dat upcoming events verticaal gedraaid aan de zijkant staat*/
   position: absolute;
   margin: 0;
   padding: .25em;
   background-color: inherit;
-  top: 0;
-  left: -10%;
+  top: 22%;
+  left: -34%;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
   writing-mode: vertical-rl;
   cursor: pointer;
+  border: none;
 }
 
 
@@ -316,7 +319,7 @@ footer p {
 /* states */
 
 /* focus state */
-main section:last-of-type h3:last-of-type:focus {
+main section:last-of-type button:focus {
   background-color: var(--focus-blue);
   outline: none;
   border: 2px solid pink;
@@ -345,7 +348,7 @@ main section:first-of-type article:focus {
 
 
 /* active state */
-main section:last-of-type h3:last-of-type:active {
+main section:last-of-type button:active {
   background-color: var(--active-pink);
 }
 
@@ -464,10 +467,10 @@ main section:nth-of-type(1) article:hover {
   cursor: pointer;
 }
 
-main section:last-of-type h3:last-of-type:hover {
+main section:last-of-type button:hover {
   background-color: var(--focus-blue);
   transition: 0.5s;
-  border-radius: 20% 0 0 20%;
+  border-radius: 20% 20% 0 0;
 }
 
 

@@ -1,7 +1,7 @@
 // JavaScript Document
 
 // het binnen sliden van de upcoming events
-var button = document.querySelector("main section:last-of-type h3"); //selecteer de button
+var button = document.querySelector("main section:last-of-type button"); //selecteer de button
 let upcoming = document.querySelector("section:last-of-type"); //selecteer de section
 
 button.addEventListener("click", openUpcoming); //toevoegen van het event door te klikken wordt de function uitgevoerd
